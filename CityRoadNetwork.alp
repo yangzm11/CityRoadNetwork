@@ -124,14 +124,43 @@
 				<PresentationFlag>true</PresentationFlag>
 				<ShowLabel>true</ShowLabel>
 				<Type>JUNCTION_STOP_LINES</Type>
+				<Junction>1529918858050</Junction>
+				<Line>1529975814811</Line>
+				<Line>1529919138464</Line>
+				<Line>1529976575168</Line>
+				<Line>1529975771636</Line>
 				<Duration Class="CodeValue">
 					<Code><![CDATA[10]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
+					<Code><![CDATA[3]]></Code>
+				</Duration>
+				<Duration Class="CodeValue">
 					<Code><![CDATA[15]]></Code>
 				</Duration>
+				<Duration Class="CodeValue">
+					<Code><![CDATA[3]]></Code>
+				</Duration>
 				<DefaultState>RED</DefaultState>
+				<DefaultState>YELLOW</DefaultState>
 				<DefaultState>RED</DefaultState>
+				<DefaultState>YELLOW</DefaultState>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
 			</TrafficLight>
 			<TrafficLight>
 				<Id>1530150325508</Id>
