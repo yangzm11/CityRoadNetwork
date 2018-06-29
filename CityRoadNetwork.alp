@@ -19084,6 +19084,28 @@
 					<TargetLane>1</TargetLane>
 				</LaneConnector>
 
+				<LaneConnector SourceId="1529976512095" TargetId="1529976775416">
+					<Id>1530252804541</Id>
+					<Name><![CDATA[laneConnector1]]></Name>
+					<X>907</X><Y>1540</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-47</X><Y>-40</Y></Point>
+						<Point><X>0</X><Y>-10</Y></Point>
+						<Point><X>0</X><Y>-80</Y></Point>
+						<Point><X>0</X><Y>-70</Y></Point>
+						<Point><X>-47</X><Y>-40</Y></Point>
+					</Points>
+					<SourceLane>1</SourceLane>
+					<TargetLane>1</TargetLane>
+				</LaneConnector>
+
 			</Shapes>
 
 				</RoadJunction>
