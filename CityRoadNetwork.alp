@@ -21611,6 +21611,21 @@
 				</RoadNetwork>
 
 			</Shapes>
+			<Controls>
+				<Control Type="Window3D">
+					<Id>1530252510796</Id>
+					<Name><![CDATA[window3d]]></Name>
+					<X>300</X><Y>-800</Y>
+					<Width>1400</Width>
+					<Height>800</Height>
+					<MakeDefaultViewArea>true</MakeDefaultViewArea>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ShowLabel>false</ShowLabel>
+					<FollowCamera>false</FollowCamera>
+					<NavigationType>full</NavigationType>
+					<FarClippingDistance>2000</FarClippingDistance>
+				</Control>
+			</Controls>
 
 		</ActiveObjectClass>
 		<!--   =========   Active Object Class   ========  -->
