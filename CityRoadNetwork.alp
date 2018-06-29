@@ -495,14 +495,43 @@
 				<PresentationFlag>true</PresentationFlag>
 				<ShowLabel>true</ShowLabel>
 				<Type>JUNCTION_STOP_LINES</Type>
+				<Junction>1529975654631</Junction>
+				<Line>1529976672885</Line>
+				<Line>1529976502472</Line>
+				<Line>1529976451063</Line>
+				<Line>1529975654697</Line>
 				<Duration Class="CodeValue">
 					<Code><![CDATA[10]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
+					<Code><![CDATA[3]]></Code>
+				</Duration>
+				<Duration Class="CodeValue">
 					<Code><![CDATA[15]]></Code>
 				</Duration>
+				<Duration Class="CodeValue">
+					<Code><![CDATA[3]]></Code>
+				</Duration>
 				<DefaultState>RED</DefaultState>
+				<DefaultState>YELLOW</DefaultState>
 				<DefaultState>RED</DefaultState>
+				<DefaultState>YELLOW</DefaultState>
+				<State>GREEN</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>GREEN</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>GREEN</State>
+				<State>YELLOW</State>
+				<State>RED</State>
+				<State>YELLOW</State>
+				<State>GREEN</State>
+				<State>YELLOW</State>
 			</TrafficLight>
 			<TrafficLight>
 				<Id>1530150349833</Id>
@@ -1708,7 +1737,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeS1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -1882,7 +1911,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeN1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2089,7 +2118,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeS2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2263,7 +2292,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeN2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2470,7 +2499,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeS3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2644,7 +2673,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeN3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2851,7 +2880,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeS4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3025,7 +3054,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeN4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3232,7 +3261,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeE0]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3406,7 +3435,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeW0]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3613,7 +3642,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeE1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3787,7 +3816,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeW1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3994,7 +4023,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeE2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4168,7 +4197,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeW2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4375,7 +4404,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeE3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4549,7 +4578,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeW3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4756,7 +4785,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeS0]]></Code>
+								<Code><![CDATA[roadedgeE4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4930,7 +4959,7 @@
 						<Parameter>
 							<Name><![CDATA[road]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[roadedgeN0]]></Code>
+								<Code><![CDATA[roadedgeW4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
