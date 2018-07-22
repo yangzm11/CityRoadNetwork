@@ -19,6 +19,8 @@
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
 			<IconTopGroupPersistent>true</IconTopGroupPersistent>
+			<StartupCode><![CDATA[String sqlDelete = "delete from Disposetime";
+database.modify(sqlDelete);]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1529918547254</Id>
@@ -1272,3532 +1274,22 @@
 				<State>RED</State>
 				<State>YELLOW</State>
 			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495135</Id>
-				<Name><![CDATA[trafficLight25]]></Name>
-				<X>-720</X><Y>860</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918858050</Junction>
-				<Line>1530587495127</Line>
-				<Line>1530587495129</Line>
-				<Line>1530587495131</Line>
-				<Line>1530587495133</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495145</Id>
-				<Name><![CDATA[trafficLight26]]></Name>
-				<X>-620</X><Y>860</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918949069</Junction>
-				<Line>1530587495137</Line>
-				<Line>1530587495139</Line>
-				<Line>1530587495141</Line>
-				<Line>1530587495143</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495155</Id>
-				<Name><![CDATA[trafficLight27]]></Name>
-				<X>-520</X><Y>860</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918951419</Junction>
-				<Line>1530587495147</Line>
-				<Line>1530587495149</Line>
-				<Line>1530587495151</Line>
-				<Line>1530587495153</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495165</Id>
-				<Name><![CDATA[trafficLight28]]></Name>
-				<X>-420</X><Y>860</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918954250</Junction>
-				<Line>1530587495157</Line>
-				<Line>1530587495159</Line>
-				<Line>1530587495161</Line>
-				<Line>1530587495163</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495175</Id>
-				<Name><![CDATA[trafficLight29]]></Name>
-				<X>-320</X><Y>860</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918956962</Junction>
-				<Line>1530587495167</Line>
-				<Line>1530587495169</Line>
-				<Line>1530587495171</Line>
-				<Line>1530587495173</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495185</Id>
-				<Name><![CDATA[trafficLight30]]></Name>
-				<X>-720</X><Y>960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316735</Junction>
-				<Line>1530587495177</Line>
-				<Line>1530587495179</Line>
-				<Line>1530587495181</Line>
-				<Line>1530587495183</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495195</Id>
-				<Name><![CDATA[trafficLight31]]></Name>
-				<X>-620</X><Y>960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316719</Junction>
-				<Line>1530587495187</Line>
-				<Line>1530587495189</Line>
-				<Line>1530587495191</Line>
-				<Line>1530587495193</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495205</Id>
-				<Name><![CDATA[trafficLight32]]></Name>
-				<X>-520</X><Y>960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316723</Junction>
-				<Line>1530587495197</Line>
-				<Line>1530587495199</Line>
-				<Line>1530587495201</Line>
-				<Line>1530587495203</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495215</Id>
-				<Name><![CDATA[trafficLight33]]></Name>
-				<X>-420</X><Y>960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316729</Junction>
-				<Line>1530587495207</Line>
-				<Line>1530587495209</Line>
-				<Line>1530587495211</Line>
-				<Line>1530587495213</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495225</Id>
-				<Name><![CDATA[trafficLight34]]></Name>
-				<X>-320</X><Y>960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316731</Junction>
-				<Line>1530587495217</Line>
-				<Line>1530587495219</Line>
-				<Line>1530587495221</Line>
-				<Line>1530587495223</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495235</Id>
-				<Name><![CDATA[trafficLight35]]></Name>
-				<X>-720</X><Y>1060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521347</Junction>
-				<Line>1530587495227</Line>
-				<Line>1530587495229</Line>
-				<Line>1530587495231</Line>
-				<Line>1530587495233</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495245</Id>
-				<Name><![CDATA[trafficLight36]]></Name>
-				<X>-620</X><Y>1060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521331</Junction>
-				<Line>1530587495237</Line>
-				<Line>1530587495239</Line>
-				<Line>1530587495241</Line>
-				<Line>1530587495243</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495255</Id>
-				<Name><![CDATA[trafficLight37]]></Name>
-				<X>-520</X><Y>1060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521335</Junction>
-				<Line>1530587495247</Line>
-				<Line>1530587495249</Line>
-				<Line>1530587495251</Line>
-				<Line>1530587495253</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495265</Id>
-				<Name><![CDATA[trafficLight38]]></Name>
-				<X>-420</X><Y>1060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521341</Junction>
-				<Line>1530587495257</Line>
-				<Line>1530587495259</Line>
-				<Line>1530587495261</Line>
-				<Line>1530587495263</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495275</Id>
-				<Name><![CDATA[trafficLight39]]></Name>
-				<X>-320</X><Y>1060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521343</Junction>
-				<Line>1530587495267</Line>
-				<Line>1530587495269</Line>
-				<Line>1530587495271</Line>
-				<Line>1530587495273</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495285</Id>
-				<Name><![CDATA[trafficLight40]]></Name>
-				<X>-720</X><Y>1160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601597</Junction>
-				<Line>1530587495277</Line>
-				<Line>1530587495279</Line>
-				<Line>1530587495281</Line>
-				<Line>1530587495283</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495295</Id>
-				<Name><![CDATA[trafficLight41]]></Name>
-				<X>-620</X><Y>1160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601581</Junction>
-				<Line>1530587495287</Line>
-				<Line>1530587495289</Line>
-				<Line>1530587495291</Line>
-				<Line>1530587495293</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495305</Id>
-				<Name><![CDATA[trafficLight42]]></Name>
-				<X>-520</X><Y>1160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601585</Junction>
-				<Line>1530587495297</Line>
-				<Line>1530587495299</Line>
-				<Line>1530587495301</Line>
-				<Line>1530587495303</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495315</Id>
-				<Name><![CDATA[trafficLight43]]></Name>
-				<X>-420</X><Y>1160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601591</Junction>
-				<Line>1530587495307</Line>
-				<Line>1530587495309</Line>
-				<Line>1530587495311</Line>
-				<Line>1530587495313</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495325</Id>
-				<Name><![CDATA[trafficLight44]]></Name>
-				<X>-320</X><Y>1160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601593</Junction>
-				<Line>1530587495317</Line>
-				<Line>1530587495319</Line>
-				<Line>1530587495321</Line>
-				<Line>1530587495323</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495335</Id>
-				<Name><![CDATA[trafficLight45]]></Name>
-				<X>-720</X><Y>1260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654631</Junction>
-				<Line>1530587495327</Line>
-				<Line>1530587495329</Line>
-				<Line>1530587495331</Line>
-				<Line>1530587495333</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495345</Id>
-				<Name><![CDATA[trafficLight46]]></Name>
-				<X>-620</X><Y>1260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654615</Junction>
-				<Line>1530587495337</Line>
-				<Line>1530587495339</Line>
-				<Line>1530587495341</Line>
-				<Line>1530587495343</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495355</Id>
-				<Name><![CDATA[trafficLight47]]></Name>
-				<X>-520</X><Y>1260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654619</Junction>
-				<Line>1530587495347</Line>
-				<Line>1530587495349</Line>
-				<Line>1530587495351</Line>
-				<Line>1530587495353</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495365</Id>
-				<Name><![CDATA[trafficLight48]]></Name>
-				<X>-420</X><Y>1260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654625</Junction>
-				<Line>1530587495357</Line>
-				<Line>1530587495359</Line>
-				<Line>1530587495361</Line>
-				<Line>1530587495363</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587495375</Id>
-				<Name><![CDATA[trafficLight49]]></Name>
-				<X>-320</X><Y>1260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654627</Junction>
-				<Line>1530587495367</Line>
-				<Line>1530587495369</Line>
-				<Line>1530587495371</Line>
-				<Line>1530587495373</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499730</Id>
-				<Name><![CDATA[trafficLight50]]></Name>
-				<X>-720</X><Y>1420</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918858050</Junction>
-				<Line>1530587499722</Line>
-				<Line>1530587499724</Line>
-				<Line>1530587499726</Line>
-				<Line>1530587499728</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499740</Id>
-				<Name><![CDATA[trafficLight51]]></Name>
-				<X>-620</X><Y>1420</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918949069</Junction>
-				<Line>1530587499732</Line>
-				<Line>1530587499734</Line>
-				<Line>1530587499736</Line>
-				<Line>1530587499738</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499750</Id>
-				<Name><![CDATA[trafficLight52]]></Name>
-				<X>-520</X><Y>1420</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918951419</Junction>
-				<Line>1530587499742</Line>
-				<Line>1530587499744</Line>
-				<Line>1530587499746</Line>
-				<Line>1530587499748</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499760</Id>
-				<Name><![CDATA[trafficLight53]]></Name>
-				<X>-420</X><Y>1420</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918954250</Junction>
-				<Line>1530587499752</Line>
-				<Line>1530587499754</Line>
-				<Line>1530587499756</Line>
-				<Line>1530587499758</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499770</Id>
-				<Name><![CDATA[trafficLight54]]></Name>
-				<X>-320</X><Y>1420</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918956962</Junction>
-				<Line>1530587499762</Line>
-				<Line>1530587499764</Line>
-				<Line>1530587499766</Line>
-				<Line>1530587499768</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499780</Id>
-				<Name><![CDATA[trafficLight55]]></Name>
-				<X>-720</X><Y>1520</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316735</Junction>
-				<Line>1530587499772</Line>
-				<Line>1530587499774</Line>
-				<Line>1530587499776</Line>
-				<Line>1530587499778</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499790</Id>
-				<Name><![CDATA[trafficLight56]]></Name>
-				<X>-620</X><Y>1520</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316719</Junction>
-				<Line>1530587499782</Line>
-				<Line>1530587499784</Line>
-				<Line>1530587499786</Line>
-				<Line>1530587499788</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499800</Id>
-				<Name><![CDATA[trafficLight57]]></Name>
-				<X>-520</X><Y>1520</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316723</Junction>
-				<Line>1530587499792</Line>
-				<Line>1530587499794</Line>
-				<Line>1530587499796</Line>
-				<Line>1530587499798</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499810</Id>
-				<Name><![CDATA[trafficLight58]]></Name>
-				<X>-420</X><Y>1520</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316729</Junction>
-				<Line>1530587499802</Line>
-				<Line>1530587499804</Line>
-				<Line>1530587499806</Line>
-				<Line>1530587499808</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499820</Id>
-				<Name><![CDATA[trafficLight59]]></Name>
-				<X>-320</X><Y>1520</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316731</Junction>
-				<Line>1530587499812</Line>
-				<Line>1530587499814</Line>
-				<Line>1530587499816</Line>
-				<Line>1530587499818</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499830</Id>
-				<Name><![CDATA[trafficLight60]]></Name>
-				<X>-720</X><Y>1620</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521347</Junction>
-				<Line>1530587499822</Line>
-				<Line>1530587499824</Line>
-				<Line>1530587499826</Line>
-				<Line>1530587499828</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499840</Id>
-				<Name><![CDATA[trafficLight61]]></Name>
-				<X>-620</X><Y>1620</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521331</Junction>
-				<Line>1530587499832</Line>
-				<Line>1530587499834</Line>
-				<Line>1530587499836</Line>
-				<Line>1530587499838</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499850</Id>
-				<Name><![CDATA[trafficLight62]]></Name>
-				<X>-520</X><Y>1620</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521335</Junction>
-				<Line>1530587499842</Line>
-				<Line>1530587499844</Line>
-				<Line>1530587499846</Line>
-				<Line>1530587499848</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499860</Id>
-				<Name><![CDATA[trafficLight63]]></Name>
-				<X>-420</X><Y>1620</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521341</Junction>
-				<Line>1530587499852</Line>
-				<Line>1530587499854</Line>
-				<Line>1530587499856</Line>
-				<Line>1530587499858</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499870</Id>
-				<Name><![CDATA[trafficLight64]]></Name>
-				<X>-320</X><Y>1620</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521343</Junction>
-				<Line>1530587499862</Line>
-				<Line>1530587499864</Line>
-				<Line>1530587499866</Line>
-				<Line>1530587499868</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499880</Id>
-				<Name><![CDATA[trafficLight65]]></Name>
-				<X>-720</X><Y>1720</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601597</Junction>
-				<Line>1530587499872</Line>
-				<Line>1530587499874</Line>
-				<Line>1530587499876</Line>
-				<Line>1530587499878</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499890</Id>
-				<Name><![CDATA[trafficLight66]]></Name>
-				<X>-620</X><Y>1720</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601581</Junction>
-				<Line>1530587499882</Line>
-				<Line>1530587499884</Line>
-				<Line>1530587499886</Line>
-				<Line>1530587499888</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499900</Id>
-				<Name><![CDATA[trafficLight67]]></Name>
-				<X>-520</X><Y>1720</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601585</Junction>
-				<Line>1530587499892</Line>
-				<Line>1530587499894</Line>
-				<Line>1530587499896</Line>
-				<Line>1530587499898</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499910</Id>
-				<Name><![CDATA[trafficLight68]]></Name>
-				<X>-420</X><Y>1720</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601591</Junction>
-				<Line>1530587499902</Line>
-				<Line>1530587499904</Line>
-				<Line>1530587499906</Line>
-				<Line>1530587499908</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499920</Id>
-				<Name><![CDATA[trafficLight69]]></Name>
-				<X>-320</X><Y>1720</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601593</Junction>
-				<Line>1530587499912</Line>
-				<Line>1530587499914</Line>
-				<Line>1530587499916</Line>
-				<Line>1530587499918</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499930</Id>
-				<Name><![CDATA[trafficLight70]]></Name>
-				<X>-720</X><Y>1820</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654631</Junction>
-				<Line>1530587499922</Line>
-				<Line>1530587499924</Line>
-				<Line>1530587499926</Line>
-				<Line>1530587499928</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499940</Id>
-				<Name><![CDATA[trafficLight71]]></Name>
-				<X>-620</X><Y>1820</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654615</Junction>
-				<Line>1530587499932</Line>
-				<Line>1530587499934</Line>
-				<Line>1530587499936</Line>
-				<Line>1530587499938</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499950</Id>
-				<Name><![CDATA[trafficLight72]]></Name>
-				<X>-520</X><Y>1820</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654619</Junction>
-				<Line>1530587499942</Line>
-				<Line>1530587499944</Line>
-				<Line>1530587499946</Line>
-				<Line>1530587499948</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499960</Id>
-				<Name><![CDATA[trafficLight73]]></Name>
-				<X>-420</X><Y>1820</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654625</Junction>
-				<Line>1530587499952</Line>
-				<Line>1530587499954</Line>
-				<Line>1530587499956</Line>
-				<Line>1530587499958</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587499970</Id>
-				<Name><![CDATA[trafficLight74]]></Name>
-				<X>-320</X><Y>1820</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654627</Junction>
-				<Line>1530587499962</Line>
-				<Line>1530587499964</Line>
-				<Line>1530587499966</Line>
-				<Line>1530587499968</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502505</Id>
-				<Name><![CDATA[trafficLight75]]></Name>
-				<X>-720</X><Y>1960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918858050</Junction>
-				<Line>1530587502497</Line>
-				<Line>1530587502499</Line>
-				<Line>1530587502501</Line>
-				<Line>1530587502503</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502515</Id>
-				<Name><![CDATA[trafficLight76]]></Name>
-				<X>-620</X><Y>1960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918949069</Junction>
-				<Line>1530587502507</Line>
-				<Line>1530587502509</Line>
-				<Line>1530587502511</Line>
-				<Line>1530587502513</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502525</Id>
-				<Name><![CDATA[trafficLight77]]></Name>
-				<X>-520</X><Y>1960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918951419</Junction>
-				<Line>1530587502517</Line>
-				<Line>1530587502519</Line>
-				<Line>1530587502521</Line>
-				<Line>1530587502523</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502535</Id>
-				<Name><![CDATA[trafficLight78]]></Name>
-				<X>-420</X><Y>1960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918954250</Junction>
-				<Line>1530587502527</Line>
-				<Line>1530587502529</Line>
-				<Line>1530587502531</Line>
-				<Line>1530587502533</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502545</Id>
-				<Name><![CDATA[trafficLight79]]></Name>
-				<X>-320</X><Y>1960</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529918956962</Junction>
-				<Line>1530587502537</Line>
-				<Line>1530587502539</Line>
-				<Line>1530587502541</Line>
-				<Line>1530587502543</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502555</Id>
-				<Name><![CDATA[trafficLight80]]></Name>
-				<X>-720</X><Y>2060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316735</Junction>
-				<Line>1530587502547</Line>
-				<Line>1530587502549</Line>
-				<Line>1530587502551</Line>
-				<Line>1530587502553</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502565</Id>
-				<Name><![CDATA[trafficLight81]]></Name>
-				<X>-620</X><Y>2060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316719</Junction>
-				<Line>1530587502557</Line>
-				<Line>1530587502559</Line>
-				<Line>1530587502561</Line>
-				<Line>1530587502563</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502575</Id>
-				<Name><![CDATA[trafficLight82]]></Name>
-				<X>-520</X><Y>2060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316723</Junction>
-				<Line>1530587502567</Line>
-				<Line>1530587502569</Line>
-				<Line>1530587502571</Line>
-				<Line>1530587502573</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502585</Id>
-				<Name><![CDATA[trafficLight83]]></Name>
-				<X>-420</X><Y>2060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316729</Junction>
-				<Line>1530587502577</Line>
-				<Line>1530587502579</Line>
-				<Line>1530587502581</Line>
-				<Line>1530587502583</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502595</Id>
-				<Name><![CDATA[trafficLight84]]></Name>
-				<X>-320</X><Y>2060</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529921316731</Junction>
-				<Line>1530587502587</Line>
-				<Line>1530587502589</Line>
-				<Line>1530587502591</Line>
-				<Line>1530587502593</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502605</Id>
-				<Name><![CDATA[trafficLight85]]></Name>
-				<X>-720</X><Y>2160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521347</Junction>
-				<Line>1530587502597</Line>
-				<Line>1530587502599</Line>
-				<Line>1530587502601</Line>
-				<Line>1530587502603</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502615</Id>
-				<Name><![CDATA[trafficLight86]]></Name>
-				<X>-620</X><Y>2160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521331</Junction>
-				<Line>1530587502607</Line>
-				<Line>1530587502609</Line>
-				<Line>1530587502611</Line>
-				<Line>1530587502613</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502625</Id>
-				<Name><![CDATA[trafficLight87]]></Name>
-				<X>-520</X><Y>2160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521335</Junction>
-				<Line>1530587502617</Line>
-				<Line>1530587502619</Line>
-				<Line>1530587502621</Line>
-				<Line>1530587502623</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502635</Id>
-				<Name><![CDATA[trafficLight88]]></Name>
-				<X>-420</X><Y>2160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521341</Junction>
-				<Line>1530587502627</Line>
-				<Line>1530587502629</Line>
-				<Line>1530587502631</Line>
-				<Line>1530587502633</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502645</Id>
-				<Name><![CDATA[trafficLight89]]></Name>
-				<X>-320</X><Y>2160</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975521343</Junction>
-				<Line>1530587502637</Line>
-				<Line>1530587502639</Line>
-				<Line>1530587502641</Line>
-				<Line>1530587502643</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502655</Id>
-				<Name><![CDATA[trafficLight90]]></Name>
-				<X>-720</X><Y>2260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601597</Junction>
-				<Line>1530587502647</Line>
-				<Line>1530587502649</Line>
-				<Line>1530587502651</Line>
-				<Line>1530587502653</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502665</Id>
-				<Name><![CDATA[trafficLight91]]></Name>
-				<X>-620</X><Y>2260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601581</Junction>
-				<Line>1530587502657</Line>
-				<Line>1530587502659</Line>
-				<Line>1530587502661</Line>
-				<Line>1530587502663</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502675</Id>
-				<Name><![CDATA[trafficLight92]]></Name>
-				<X>-520</X><Y>2260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601585</Junction>
-				<Line>1530587502667</Line>
-				<Line>1530587502669</Line>
-				<Line>1530587502671</Line>
-				<Line>1530587502673</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502685</Id>
-				<Name><![CDATA[trafficLight93]]></Name>
-				<X>-420</X><Y>2260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601591</Junction>
-				<Line>1530587502677</Line>
-				<Line>1530587502679</Line>
-				<Line>1530587502681</Line>
-				<Line>1530587502683</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502695</Id>
-				<Name><![CDATA[trafficLight94]]></Name>
-				<X>-320</X><Y>2260</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975601593</Junction>
-				<Line>1530587502687</Line>
-				<Line>1530587502689</Line>
-				<Line>1530587502691</Line>
-				<Line>1530587502693</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502705</Id>
-				<Name><![CDATA[trafficLight95]]></Name>
-				<X>-720</X><Y>2360</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654631</Junction>
-				<Line>1530587502697</Line>
-				<Line>1530587502699</Line>
-				<Line>1530587502701</Line>
-				<Line>1530587502703</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502715</Id>
-				<Name><![CDATA[trafficLight96]]></Name>
-				<X>-620</X><Y>2360</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654615</Junction>
-				<Line>1530587502707</Line>
-				<Line>1530587502709</Line>
-				<Line>1530587502711</Line>
-				<Line>1530587502713</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502725</Id>
-				<Name><![CDATA[trafficLight97]]></Name>
-				<X>-520</X><Y>2360</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654619</Junction>
-				<Line>1530587502717</Line>
-				<Line>1530587502719</Line>
-				<Line>1530587502721</Line>
-				<Line>1530587502723</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502735</Id>
-				<Name><![CDATA[trafficLight98]]></Name>
-				<X>-420</X><Y>2360</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654625</Junction>
-				<Line>1530587502727</Line>
-				<Line>1530587502729</Line>
-				<Line>1530587502731</Line>
-				<Line>1530587502733</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
-			<TrafficLight>
-				<Id>1530587502745</Id>
-				<Name><![CDATA[trafficLight99]]></Name>
-				<X>-320</X><Y>2360</Y>
-				<Label><X>0</X><Y>-20</Y></Label>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>true</PresentationFlag>
-				<ShowLabel>true</ShowLabel>
-				<Type>JUNCTION_STOP_LINES</Type>
-				<Junction>1529975654627</Junction>
-				<Line>1530587502737</Line>
-				<Line>1530587502739</Line>
-				<Line>1530587502741</Line>
-				<Line>1530587502743</Line>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[GreenLightTime]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[YellowLightTime]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>YELLOW</DefaultState>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>GREEN</State>
-				<State>YELLOW</State>
-				<State>RED</State>
-				<State>YELLOW</State>
-			</TrafficLight>
 			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1532247439682</Id>
+					<Name><![CDATA[databaseIndex]]></Name>
+					<X>-700</X><Y>840</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1530238129927</Id>
 					<Name><![CDATA[CarArrivalRate]]></Name>
@@ -5259,7 +1751,7 @@
 				<Connector>
 					<Id>1530150372116</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>-1100</X><Y>800</Y>
+					<X>-1100</X><Y>900</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5292,7 +1784,7 @@
 				<Connector>
 					<Id>1530150375759</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>-1100</X><Y>900</Y>
+					<X>-1100</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5325,7 +1817,7 @@
 				<Connector>
 					<Id>1530150379629</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>-1100</X><Y>1000</Y>
+					<X>-1100</X><Y>1100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5358,7 +1850,7 @@
 				<Connector>
 					<Id>1530150385389</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>-1100</X><Y>1100</Y>
+					<X>-1100</X><Y>1200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5391,7 +1883,7 @@
 				<Connector>
 					<Id>1530150388798</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>-1100</X><Y>1200</Y>
+					<X>-1100</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5562,149 +2054,141 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1530238466116</Id>
+					<Id>1532233241972</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>-1060</X><Y>800</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[carDispose1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[carMoveTo5]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carDispose]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarDispose]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>-500</Y></Point>
-						<Point><X>110</X><Y>-500</Y></Point>
+						<Point><X>-1000</X><Y>900</Y></Point>
+						<Point><X>-1060</X><Y>900</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1530238935449</Id>
+					<Id>1532233246298</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>-1060</X><Y>900</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[carDispose2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[carMoveTo6]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carDispose]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarDispose]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>-600</Y></Point>
-						<Point><X>110</X><Y>-600</Y></Point>
+						<Point><X>-1000</X><Y>1000</Y></Point>
+						<Point><X>-1060</X><Y>1000</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1530238942691</Id>
+					<Id>1532233249885</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>-1060</X><Y>1000</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[carDispose3]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[carMoveTo7]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carDispose]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarDispose]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>-700</Y></Point>
-						<Point><X>110</X><Y>-700</Y></Point>
+						<Point><X>-1000</X><Y>1100</Y></Point>
+						<Point><X>-1060</X><Y>1100</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1530238950277</Id>
+					<Id>1532233254027</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>-1060</X><Y>1100</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[carDispose4]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 						<ItemName><![CDATA[carMoveTo8]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carDispose]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarDispose]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>-800</Y></Point>
-						<Point><X>110</X><Y>-800</Y></Point>
+						<Point><X>-1000</X><Y>1200</Y></Point>
+						<Point><X>-1060</X><Y>1200</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1530238957818</Id>
+					<Id>1532233258019</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>-1060</X><Y>1200</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5712,28 +2196,26 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carMoveTo9]]></ItemName>
+						<ItemName><![CDATA[carDispose5]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarMoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[cityroadnetwork]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[carDispose]]></ItemName>
+						<ItemName><![CDATA[carMoveTo9]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
-						<ClassName><![CDATA[CarDispose]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
+						<ClassName><![CDATA[CarMoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>-900</Y></Point>
-						<Point><X>110</X><Y>-900</Y></Point>
+						<Point><X>-1000</X><Y>1300</Y></Point>
+						<Point><X>-1060</X><Y>1300</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -5789,6 +2271,26 @@
 ]]></Action>
 				</Event>
 			</Events>
+			<Connectivity>
+				<Database>
+					<Id>1532235782468</Id>
+					<Name><![CDATA[database]]></Name>
+					<X>-700</X><Y>900</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DatabaseType>MS_SQL_SERVER</DatabaseType>
+					<ConnectionURL><![CDATA[]]></ConnectionURL>
+					<ConnectOnStartup>true</ConnectOnStartup>
+					<DatabaseName><![CDATA[tl]]></DatabaseName>
+					<DbFileName><![CDATA[]]></DbFileName>
+					<Host><![CDATA[166.111.140.39]]></Host>
+					<JdbcDriverClassName><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></JdbcDriverClassName>
+					<Login><![CDATA[sa]]></Login>
+					<Password><![CDATA[lch@1234]]></Password>
+				</Database>
+			</Connectivity>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1529918547251</Id>
@@ -7492,7 +3994,7 @@
 				<EmbeddedObject>
 					<Id>1530150372061</Id>
 					<Name><![CDATA[carSource5]]></Name>
-					<X>-1220</X><Y>800</Y>
+					<X>-1220</X><Y>900</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7714,7 +4216,7 @@
 				<EmbeddedObject>
 					<Id>1530150372094</Id>
 					<Name><![CDATA[carMoveTo5]]></Name>
-					<X>-1100</X><Y>790</Y>
+					<X>-1100</X><Y>890</Y>
 					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7814,7 +4316,7 @@
 				<EmbeddedObject>
 					<Id>1530150375695</Id>
 					<Name><![CDATA[carSource6]]></Name>
-					<X>-1220</X><Y>900</Y>
+					<X>-1220</X><Y>1000</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8036,7 +4538,7 @@
 				<EmbeddedObject>
 					<Id>1530150375737</Id>
 					<Name><![CDATA[carMoveTo6]]></Name>
-					<X>-1100</X><Y>890</Y>
+					<X>-1100</X><Y>990</Y>
 					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8136,7 +4638,7 @@
 				<EmbeddedObject>
 					<Id>1530150379573</Id>
 					<Name><![CDATA[carSource7]]></Name>
-					<X>-1220</X><Y>1000</Y>
+					<X>-1220</X><Y>1100</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8358,7 +4860,7 @@
 				<EmbeddedObject>
 					<Id>1530150379607</Id>
 					<Name><![CDATA[carMoveTo7]]></Name>
-					<X>-1100</X><Y>990</Y>
+					<X>-1100</X><Y>1090</Y>
 					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8458,7 +4960,7 @@
 				<EmbeddedObject>
 					<Id>1530150385313</Id>
 					<Name><![CDATA[carSource8]]></Name>
-					<X>-1220</X><Y>1100</Y>
+					<X>-1220</X><Y>1200</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8680,7 +5182,7 @@
 				<EmbeddedObject>
 					<Id>1530150385358</Id>
 					<Name><![CDATA[carMoveTo8]]></Name>
-					<X>-1100</X><Y>1090</Y>
+					<X>-1100</X><Y>1190</Y>
 					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8780,7 +5282,7 @@
 				<EmbeddedObject>
 					<Id>1530150388718</Id>
 					<Name><![CDATA[carSource9]]></Name>
-					<X>-1220</X><Y>1200</Y>
+					<X>-1220</X><Y>1300</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9002,7 +5504,7 @@
 				<EmbeddedObject>
 					<Id>1530150388769</Id>
 					<Name><![CDATA[carMoveTo9]]></Name>
-					<X>-1100</X><Y>1190</Y>
+					<X>-1100</X><Y>1290</Y>
 					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9054,6 +5556,346 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1532233238462</Id>
+					<Name><![CDATA[carDispose1]]></Name>
+					<X>-1000</X><Y>900</Y>
+					<Label><X>-40</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+							<ClassName><![CDATA[CarDispose]]></ClassName>
+							<ItemName><![CDATA[1424352404712]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",0)";
+database.modify(sqlInsert);
+databaseIndex++;]]></Code>
+							</Value>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1532233243572</Id>
+					<Name><![CDATA[carDispose2]]></Name>
+					<X>-1000</X><Y>1000</Y>
+					<Label><X>-40</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+							<ClassName><![CDATA[CarDispose]]></ClassName>
+							<ItemName><![CDATA[1424352404712]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1532233247200</Id>
+					<Name><![CDATA[carDispose3]]></Name>
+					<X>-1000</X><Y>1100</Y>
+					<Label><X>-40</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+							<ClassName><![CDATA[CarDispose]]></ClassName>
+							<ItemName><![CDATA[1424352404712]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1532233250765</Id>
+					<Name><![CDATA[carDispose4]]></Name>
+					<X>-1000</X><Y>1200</Y>
+					<Label><X>-40</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+							<ClassName><![CDATA[CarDispose]]></ClassName>
+							<ItemName><![CDATA[1424352404712]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1532233254941</Id>
+					<Name><![CDATA[carDispose5]]></Name>
+					<X>-1000</X><Y>1300</Y>
+					<Label><X>-40</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+						<ClassName><![CDATA[CarDispose]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.road]]></PackageName>
+							<ClassName><![CDATA[CarDispose]]></ClassName>
+							<ItemName><![CDATA[1424352404712]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
