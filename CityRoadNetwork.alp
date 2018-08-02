@@ -4265,6 +4265,9 @@ database.modify(sqlDelete);]]></StartupCode>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[car.lane = car.getLaneIndex()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
@@ -4587,6 +4590,9 @@ database.modify(sqlDelete);]]></StartupCode>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[car.lane = car.getLaneIndex()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
@@ -4909,6 +4915,9 @@ database.modify(sqlDelete);]]></StartupCode>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[car.lane = car.getLaneIndex()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
@@ -5231,6 +5240,9 @@ database.modify(sqlDelete);]]></StartupCode>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[car.lane = car.getLaneIndex()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
@@ -5553,6 +5565,9 @@ database.modify(sqlDelete);]]></StartupCode>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[car.lane = car.getLaneIndex()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onWayNotFound]]></Name>
@@ -5624,7 +5639,7 @@ database.modify(sqlDelete);]]></StartupCode>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",0)";
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",0," + car.lane + ")";
 database.modify(sqlInsert);
 databaseIndex++;]]></Code>
 							</Value>
@@ -5695,6 +5710,11 @@ databaseIndex++;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",1," + car.lane + ")";
+database.modify(sqlInsert);
+databaseIndex++;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -5762,6 +5782,11 @@ databaseIndex++;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",2," + car.lane + ")";
+database.modify(sqlInsert);
+databaseIndex++;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -5829,6 +5854,11 @@ databaseIndex++;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",3," + car.lane + ")";
+database.modify(sqlInsert);
+databaseIndex++;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -5896,6 +5926,11 @@ databaseIndex++;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[String sqlInsert = "insert into Disposetime values (" + databaseIndex + "," + time() + ",4," + car.lane + ")";
+database.modify(sqlInsert);
+databaseIndex++;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -22102,6 +22137,20 @@ databaseIndex++;]]></Code>
 				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 			</ScaleRuler>
 			<ConnectionsId>1529997309026</ConnectionsId>
+			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1532310034703</Id>
+					<Name><![CDATA[lane]]></Name>
+					<X>250</X><Y>-150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+			</Variables>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1529997309026</Id>
